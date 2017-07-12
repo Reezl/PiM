@@ -58,6 +58,9 @@ class App:
 '''
 
 root = Tk()
+App(root)
+root.mainloop()
+
 if __name__ == "__main__":
 	App(root)
 	root.mainloop()
